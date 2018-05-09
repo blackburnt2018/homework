@@ -35,8 +35,6 @@ def determineWinnerGame(score1,score2):
 gamerunning = True
 
 while(gamerunning):
-	if(rollresult1 > rollresult2):
-		return score1 += 1
-	elif(rollreult2 > rollresult1):
-		return score2 += 1
-	
+	if(
+
+

@@ -19,8 +19,6 @@ def determineWinnerRound(rollresult1,rollresult2):
 	else:
 		return "tie"
 
-
-
 def determineWinnerGame(score1,score2):
 	if(score1 > 1):
 		return "player1"
@@ -30,13 +28,12 @@ def determineWinnerGame(score1,score2):
 		return "nobody"
 
 
-
-
 gamerunning = True
 
 while(gamerunning):
 	if(rollresult1 > rollresult2):
 		return score1 += 1
-	elif(rollreult2 > rollresult1):
+	elif(rollresult2 > rollresult1):
 		return score2 += 1
-	
+	elif(rollresult1 = rollresult2):
+		
